@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+    padding:20px;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+.formulario{
+    margin:20px 0;
+}
+
+input{
+    padding:10px;
+    margin:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#agregarBtn{
+    background:#28a745;
+    color:white;
+}
+
+.exportar button{
+    background:#007bff;
+    color:white;
+    margin:5px;
+}
+
+.alerta{
+    background:red;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    margin-bottom:15px;
+}
+
+.oculto{
+    display:none;
+}
+
+.producto{
+    background:white;
+    margin:10px auto;
+    padding:15px;
+    border-radius:10px;
+    max-width:700px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.info{
+    text-align:left;
+}
+
+.acciones button{
+    margin-left:5px;
+}
+
+@media(max-width:700px){
+    .producto{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    input{
+        width:90%;
+    }
+}
